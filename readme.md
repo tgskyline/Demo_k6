@@ -11,7 +11,7 @@ Este projeto é uma demonstração do uso do k6, uma ferramenta de teste de carg
 
 1. Clone o repositório:
     ```sh
-    git clone https://github.com/seu-usuario/demo-k6.git
+    git clone https://github.com/tgskyline/Demo_k6.git
     ```
 2. Navegue até o diretório do projeto:
     ```sh
