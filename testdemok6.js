@@ -1,5 +1,5 @@
-import http from 'k6/http';
-import { check, sleep } from 'k6';
+const http = require('k6/http');
+const { check, sleep } = require('k6');
 
 // Executa quantas requisições forem possíveis dentro da duração máxima desejada
 // Quando usar:

@@ -30,7 +30,7 @@ if (csvData.length === 0) {
 
 export let options = {
     vus: 5, // 5 usuários simultâneos
-    duration: '1s', // Tempo do teste
+    duration: '5s', // Tempo do teste
 };
 
 export default function () {
@@ -59,6 +59,9 @@ export default function () {
     };
 
     let res = http.post(url, payload, params);
+
+    console.log(`Resposta: ${res.body}`);
+    console.log(`Status: ${res.status}`);
 
     check(res, {
         'status é 201': (r) => r.status === 201,
